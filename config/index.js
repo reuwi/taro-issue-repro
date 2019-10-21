@@ -27,7 +27,9 @@ const config = {
       ]
     }
   },
-  defineConstants: {},
+  defineConstants: {
+    ENV_KEY: JSON.stringify(process.env.ENV_KEY)
+  },
   copy: {
     patterns: [],
     options: {}

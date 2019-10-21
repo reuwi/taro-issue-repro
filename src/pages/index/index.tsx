@@ -5,7 +5,7 @@ import "./index.scss";
 export default class Index extends Component {
   constructor(props) {
     super(props);
-    console.log(process.env.TARO_ENV, process.env.ENV_KEY);
+    console.log(ENV_KEY, process.env.ENV_KEY);
   }
   state = {
     showText: false
